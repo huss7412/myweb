@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宝龙科技城实验学校信息科技课程教学</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 600px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        .grade-selection {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .grade-selection h2 {
+            color: #555;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        .grade-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .grade-buttons .section {
+            text-align: left;
+        }
+        .grade-buttons .section h3 {
+            color: #444;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .grade-buttons button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-right: 10px;
+        }
+        .grade-buttons button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>信息科技课程教学</h1>
+        <div class="grade-selection">
+            <h2>请选择年级:</h2>
+        </div>
+        <div class="grade-buttons">
+            <div class="section">
+                <h3>小学课程：
+                <button onclick="window.location.href='grade3.html'">3年级</button>
+                <button onclick="window.location.href='grade4.html'">4年级</button>
+                <button onclick="window.location.href='grade5.html'">5年级</button>
+                <button onclick="window.location.href='grade6.html'">6年级</button>
+            </h3>
+            </div>
+            <div class="section">
+                <h3>初中课程：
+                <button onclick="window.location.href='grade7.html'">7年级</button>
+                <button onclick="window.location.href='grade8.html'">8年级</button>
+               </h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
